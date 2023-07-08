@@ -14,7 +14,9 @@ final Map<String, WidgetBuilder> routes = {
   '/sellersignup': (context) => SellerSignup(),
   '/userhome': (context) => UserHome(),
 };
-var localhost = "192.168.10.62";
+var localhost = "192.168.15.250";
+//images location folder
+var productimageurl = 'http://$localhost/php/FlutterEcommerce/uploads/';
 //user folder all url
 var userLoginurl =
     "http://$localhost/php/FlutterEcommerce/users/index.php"; //post methods'email','password' are used to login
